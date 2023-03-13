@@ -1,0 +1,66 @@
+.offer {
+  padding: 100px 0px;
+  background-color: #00ff8514;
+  @media (max-width: 768px) {
+    padding: 89px 0px 29px;
+  }
+  &__container {
+    display: block;
+    text-align: center;
+    @media (max-width: 768px) {
+    }
+    &-bg {
+      background: 0% 75% url(../../assets/images/arrowOffer.svg),
+        100% 24% url(../../assets/images/arrowOffer.svg);
+      background-repeat: no-repeat;
+      @media (max-width: 768px) {
+        background: 100% 62px url(../../assets/images/arrowOffer.svg),
+          0% 100% url(../../assets/images/arrowOffer.svg);
+        background-repeat: no-repeat;
+      }
+    }
+  }
+  &__title {
+    margin-bottom: 103px;
+    font-size: 40px;
+    @media (max-width: 768px) {
+      margin: 0px auto 114px;
+    }
+    @media (max-width: 375px) {
+      display: block;
+    }
+  }
+  &__card-inner {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 240px;
+    margin-right: 240px;
+    @media (max-width: 1200px) {
+      margin: 0px 150px;
+    }
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+      margin: 0px auto;
+    }
+  }
+  &__card {
+    width: 253px;
+    margin-right: 56px;
+    text-align: center;
+    @media (max-width: 768px) {
+      margin: 0px auto 50px;
+    }
+    @media (max-width: 375px) {
+      margin: 0px auto 67px;
+    }
+  }
+  &__pic {
+    margin-bottom: 24px;
+    @media (max-width: 768px) {
+      width: 80px;
+    }
+    @media (max-width: 375px) {
+      width: 100px;
+    }
+  }
+}
