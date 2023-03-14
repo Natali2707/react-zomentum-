@@ -6,8 +6,8 @@ import { Offer } from './components/Offer/Offer'
 export const App = () => (
   <div>
     <div ><Header /></div>
-   <div>  <Hero /></div>
-   <div> <Offer /></div>
+    <div>  <Hero /></div>
+    <div> <Offer /></div>
   </div>
 )
 

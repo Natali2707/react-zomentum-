@@ -5,17 +5,16 @@
     padding: 89px 0px 29px;
   }
   &__container {
-    display: block;
     text-align: center;
     @media (max-width: 768px) {
     }
     &-bg {
-      background: 0% 75% url(../../assets/images/arrowOffer.svg),
-        100% 24% url(../../assets/images/arrowOffer.svg);
+      background: 0% 75% url(../../assets/images/arrow.svg),
+        100% 24% url(../../assets/images/arrow.svg);
       background-repeat: no-repeat;
       @media (max-width: 768px) {
-        background: 100% 62px url(../../assets/images/arrowOffer.svg),
-          0% 100% url(../../assets/images/arrowOffer.svg);
+        background: 100% 62px url(../../assets/images/arrow.svg),
+          0% 100% url(../../assets/images/arrow.svg);
         background-repeat: no-repeat;
       }
     }
@@ -25,9 +24,6 @@
     font-size: 40px;
     @media (max-width: 768px) {
       margin: 0px auto 114px;
-    }
-    @media (max-width: 375px) {
-      display: block;
     }
   }
   &__card-inner {

@@ -8,7 +8,6 @@
   &__wrapper {
     margin: 114px auto;
     @media (max-width: 768px) {
-      display: block;
       max-width: calc(375px - var(--gutter) * 2);
       margin: 70px auto;
     }
